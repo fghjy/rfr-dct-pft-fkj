@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>обратная связь</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_conteiner">
+                 <a href="../index.html"><img src="../img/logo.png" alt="This is logo!" class="header_logo"></a> 
+                 <nav class="header_navigation navigation">
+                     <ul class="navigation_list">
+                        <li class="navigation_item"><a href="modeli.html">модельный ряд</a></li>
+                        <li class="navigation_item"><a href="servis.html">сервисный центр</a></li>
+                        <li class="navigation_item"><a href="diler.html">дилеры</a></li>
+                        <li class="navigation_item"><a href="uslugi.html">обратная связь</a></li>
+                     </ul>
+                 </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main_section order">
+            <div class="container">
+                <h2 class="order_title">Обратная связь </h2>
+            </div>
+            <form action="mailto:pisnasta@icloud.com" enctype="text/plain" class="order_form form">
+                <fieldset class="form_box">
+                    <label for="fullName" class="form_label">ФИО </label>
+                    <input type="text" class="form_input" name="fullName">
+                    <label for="phone" class="form_label">Телефон</label>
+                    <input type="text" class="form_input" name="phone">
+                    <label for="mail" class="form_label">E-mail</label>
+                    <input type="email" class="form_input" name="mail">
+                    <label for="model" class="form_label">Интересующая услуга</label>
+                    <select name="model" class="form_select">
+                        <option value="Заказать обратный звонок">Заказать обратный звонок </option>
+                        <option value="Записаться на тест-драйв">Записаться на тест-драйв </option>
+                        <option value="Получить консультацию по кредиту">Получить консультацию по кредиту</option>
+                    </select>
+                    <button type="submit" class="form_submit btn" form="form-order">Оформить</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_conteiner">
+                <img src="../img/logo.png" alt="This is logo!" class="footer_logo">
+                <ul class="footer_list">
+                    <li class="footer_item">© OOO "ANURAN", 2021</li>
+                </ul>
+           </div>
+        </div>
+    </footer>
+</body>
+</html>
